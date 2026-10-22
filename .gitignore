@@ -1,0 +1,38 @@
+
+
+
+
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Stable-Baselines3 & Training Outputs
+models/
+logs/
+tb_logs/
+runs/
+*.Monitor.csv
+
+# Raw recorded video dumps & Gymnasium metadata
+videos/
+*.meta.json
+
+# Jupyter Notebook checkpoints (if you experiment in notebooks)
+.ipynb_checkpoints/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
