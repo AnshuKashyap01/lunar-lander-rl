@@ -1,7 +1,9 @@
 import gymnasium as gym
+from lunar_ui import UpgradedLunarUI  # <-- Add this import
 
 # Create the environment with the game window turned on ("human")
 env = gym.make("LunarLander-v3", render_mode="human")
+env = UpgradedLunarUI(env)
 
 obs, info = env.reset()
 
